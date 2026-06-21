@@ -1,0 +1,6 @@
+{
+  "name": "OpsAI Agent",
+  "description": "Enterprise Fleet Dashboard with advanced real-time active response logic and Gemini-powered diagnostic reasoning chain.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
