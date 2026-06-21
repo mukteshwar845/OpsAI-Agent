@@ -8,7 +8,6 @@ import ActivityLogView from "./components/ActivityLogView";
 import SettingsView from "./components/SettingsView";
 import ReasoningPanel from "./components/ReasoningPanel";
 import AICopilotView from "./components/AICopilotView";
-import SystemDocsView from "./components/SystemDocsView";
 import { SeeAlternativesModal, OverrideModal, EscalateModal, AdminProfileModal } from "./components/Modals";
 import { Recommendation, ReasoningChain, ActivityLogEntry, DeviceStatus } from "./types";
 
@@ -701,10 +700,6 @@ export default function App() {
             theme={theme}
             onChangeTheme={setTheme}
           />
-        )}
-
-        {currentTab === "system-docs" && (
-          <SystemDocsView />
         )}
       </main>
 

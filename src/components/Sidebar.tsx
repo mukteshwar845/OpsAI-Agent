@@ -6,8 +6,7 @@ import {
   History, 
   ShieldCheck,
   X,
-  MessageSquare,
-  BookOpen
+  MessageSquare
 } from "lucide-react";
 
 interface SidebarProps {
@@ -39,7 +38,6 @@ export default function Sidebar({
     { id: "ai-copilot", label: "AI Copilot", icon: MessageSquare },
     { id: "ai-recommendations", label: "AI Recommendations", icon: BrainCircuit, badge: pendingCount },
     { id: "activity-log", label: "Activity Log", icon: History },
-    { id: "system-docs", label: "System Docs", icon: BookOpen },
   ];
 
   return (
